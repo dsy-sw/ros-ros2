@@ -1,11 +1,11 @@
-# 왜 ROS2인가?
+# The reason for using ros2
 
 - [**ROS1 마지막 버전 선언**](https://www.openrobotics.org/blog/2020/5/23/noetic-ninjemys-the-last-official-ros-1-release)
     1. 2020년 5월, ROS Noetic Ninjemys 배포 후 ROS1 개발 종료
 - **개발자의 ROS2 관심과 [사용률이 증가](https://metrics.ros.org/packages_rosdistro.html)(2021.05 기준 ROS2 비율 20%를 넘김)하면서 변화의 흐름이 생김**
 - **amazon, samsung, intel, Microsoft  같은 글로벌 기업들의 관심과 다양한 기업의 [ROS2 Technical Streering Committee](https://index.ros.org/doc/ros2/Governance/) 결성**
 
-![%E1%84%8B%E1%85%AB%20ROS2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%206af2faf9eead49388057f9fdbfae58bf/Untitled.png](%E1%84%8B%E1%85%AB%20ROS2%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%206af2faf9eead49388057f9fdbfae58bf/Untitled.png)
+![The%20reason%20for%20using%20ros2%206af2faf9eead49388057f9fdbfae58bf/Untitled.png](The%20reason%20for%20using%20ros2%206af2faf9eead49388057f9fdbfae58bf/Untitled.png)
 
 - **ROS2만의 특징**
     1. 시장 출시 기간 단축
