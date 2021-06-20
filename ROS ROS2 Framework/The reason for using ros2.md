@@ -5,7 +5,7 @@
 - **개발자의 ROS2 관심과 [사용률이 증가](https://metrics.ros.org/packages_rosdistro.html)(2021.05 기준 ROS2 비율 20%를 넘김)하면서 변화의 흐름이 생김**
 - **amazon, samsung, intel, Microsoft  같은 글로벌 기업들의 관심과 다양한 기업의 [ROS2 Technical Streering Committee](https://index.ros.org/doc/ros2/Governance/) 결성**
 
-![The%20reason%20for%20using%20ros2%206af2faf9eead49388057f9fdbfae58bf/Untitled.png](The%20reason%20for%20using%20ros2%206af2faf9eead49388057f9fdbfae58bf/Untitled.png)
+![https://github.com/dsy-sw/to-learning-ros-ros2/blob/main/ROS%20ROS2%20Framework/The%20reason%20for%20using%20ros2/Untitled.png)
 
 - **ROS2만의 특징**
     1. 시장 출시 기간 단축
