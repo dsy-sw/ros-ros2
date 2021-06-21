@@ -1,1 +1,0 @@
-# ROS vs ROS2

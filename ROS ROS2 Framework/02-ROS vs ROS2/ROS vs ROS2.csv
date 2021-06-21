@@ -1,0 +1,22 @@
+﻿ROS vs ROS2,ROS,ROS2
+,,
+Platforms,Linux macOs,"Linux, macOS, windows"
+Real-time,external frameworks like OROCOS,real-time nodes when using a proper RTOS with carefully written user code
+Security,SROS,"SROS2, DDS-Security, Robotic Systems Threat Model"
+Communication,XMLRPC + TCPROS,DDS(Real Time Pub Sub)
+Middleware interface,-,rmw
+Node manager(discovery),ROS Master,"No, use DDS's dynamic discovery"
+Languages,"C++03, Python 2.7","C++14(C++17), Python 3.5+"
+Client library,"roscpp, rospy, rosjava, rosnodejs, and more","rclcpp, rclpy, rcljava, rcljs, and more"
+Build system,rosbuild → catkin(CMake),"ament(CMake), Python setuptools(Full support)"
+Build tools,"catkin_make, catkin_tools",colcon
+Build options,-,"Multiple workspace, No non-isolated build, No devel space"
+Version control system,"rosws → wstool, rosinstall(*.rosinstall)",vctool(*.repos)
+Life cycle,-,node life cycle
+Multiple nodes,one node in a process,multiple nodes in a process
+Threading model,single-threaded execution or multi—threaded execution,custom executors
+"Messages(topic, service, action)","*.msg, *.srvm *.action","*.msgm *.srv, *.action, *.idl"
+Command Line interface,"rosrun, roslaunch, ros topic...","ros2 run, ros2 launch, ros2 topic ..."
+ros launch,XML,"Python, XML, YAML"
+Graph API,remapping at startup time only,remapping at runtime
+Embedded Systems,"rosserial, mROS","microROS, XEL Network, ros2 arduino, Renesas DDS-XRCE(Micro-XRCE-DDS), AWS ARCLM"
