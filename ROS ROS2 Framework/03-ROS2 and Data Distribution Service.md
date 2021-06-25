@@ -151,7 +151,7 @@ $ ros2 run demo_nodes_cpp talker
 $ rqt_graph
 ```
 
-![03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png](03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png)
+![03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%207.png)
 
 ---
 
