@@ -8,7 +8,7 @@ Robot 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
 
   Birth / Nationality : 1994.02.20 / Republic of Korea
 
-  Notion(ROS2) : [https://www.notion.so/README-b4e78c4e7c144c8492c1ec0eb3cab66a]()
+  Notion(ROS2) : https://www.notion.so/ROS2-Framework-b4e78c4e7c144c8492c1ec0eb3cab66a
 
   E-mail : dsy0220@naver.com & dsy94.sw@gmail.com
 
