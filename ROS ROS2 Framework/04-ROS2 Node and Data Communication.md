@@ -6,7 +6,7 @@
 
 - 수많은 노드들이 연동되는 ROS 시스템을 위해서는 노드와 노드 사이에 입력과 출력 데이터를 서루 주고받게 설계해야 하며 이때 주고받는 데이터를 메시지, 주고받는 방식을 메시지 통신이라 한다. 메시지는 integer, floating point, boolean, string같은 변수 형태이며, 메시지를 주고 받는 통신 방법에 따라 1. 토픽, 2. 서비스, 3. 액션, 4. 파라미터로 나뉘게 된다.
 
-  ![04-ROS2%20Node%20and%20Data%20Communication%20594187aef73d4c098fb39091dde56688/Untitled.png](04-ROS2 Node and Data Communication/Untitled.png)
+  ![04-ROS2%20Node%20and%20Data%20Communication/Untitled.png](04-ROS2%20Node%20and%20Data%20Communication/Untitled.png)
 
   - 토픽(Topic)  : 위 그림 Node A - B, Node A - C 처럼 비동기식 단방향 메시지 송수신 방식으로 메시지 Publisher와 Subscriber 간의 통신. 1:N, N:1, N:N 통신이 가능하며 ROS 메시지 통신에서 가장 널리 사용.
   - 서비스(Service) : Node B-C처럼 동기식 양방향 메시지 송수신 방식으로 서비스의 요청(Request)을 하는 쪽을 Service Client이며, 서비스의 응답(Response)을 하는 쪽을 Service Server이다. 서비스 요청 및 응답(Request/Response) 또한 위에서 언급한 msg 메시지의 변형으로 srv 메시지라고 한다.
@@ -27,7 +27,7 @@ $ ros2 run turtlesim turtle_teleop_key
 $ rqt_graph
 ```
 
-![04-ROS2%20Node%20and%20Data%20Communication/Untitled%201.png](04-ROS2 Node and Data Communication/Untitled 1.png)
+![04-ROS2%20Node%20and%20Data%20Communication/Untitled%201.png](04-ROS2%20Node%20and%20Data%20Communication/Untitled%201.png)
 
 - ros2 run 또는 ros2 launch 이에도 rqt, rqt_graph, rviz2같은 실행 명령어 방법이 있다.
 
@@ -56,7 +56,7 @@ $ ros2 node list
 /turtlesim
 ```
 
-![04-ROS2%20Node%20and%20Data%20Communication%20594187aef73d4c098fb39091dde56688/Untitled%202.png](04-ROS2 Node and Data Communication/Untitled 2.png)
+![04-ROS2%20Node%20and%20Data%20Communication%20594187aef73d4c098fb39091dde56688/Untitled%202.png](04-ROS2%20Node%20and%20Data%20Communication/Untitled%202.png)
 
 # 4. 노드 정보(ros2 node info)
 
