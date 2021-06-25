@@ -1,6 +1,6 @@
 # 02-ROS vs ROS2
 
-[ROS vs ROS2](02-ROS%20vs%20ROS2%205bc9f5d7ec2648d9876afe95ecc473c6/ROS%20vs%20ROS2%20049647e06aa54d77a7bd04bb5c2f3fa0.csv)
+[ROS vs ROS2](02-ROS%vs%ROS2/ROS%vs%ROS2.csv)
 
 ---
 

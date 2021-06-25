@@ -1,4 +1,4 @@
-# 03-ROS2와 Data Distribution Service
+# 03-ROS2 and Data Distribution Service
 
 # 1. ROS의 메시지 통신
 
@@ -6,7 +6,7 @@
 - 하나 이상의 노드 또는 노드 실행을 위한 정보 등을 묶어 놓은 것을 패키지(package), 패키지 묶음을 메타패키지(metapackega)
 - 메시지 통신으로 노드와 노드 사이에 입력과 출력 데이터를 주고 받는다. [메시지(message)](http://wiki.ros.org/Messages)는 integer, floating point, boolean, string 타입의 변수이며 메시지 안에 메시지를 품는 간단한 데이터 구조 및 메시지들의 배열 구조도 사용이 가능하다.
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled.png)
+![03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled.png)
 
 ---
 
@@ -17,13 +17,13 @@
 - 메시지 통신 방법 [1. 토픽](https://index.ros.org/doc/ros2/Tutorials/Topics/Understanding-ROS2-Topics/) [2. 서비스](https://index.ros.org/doc/ros2/Tutorials/Services/Understanding-ROS2-Services/) [3. 액션](https://index.ros.org/doc/ros2/Tutorials/Understanding-ROS2-Actions/) [4.파라미터](https://index.ros.org/doc/ros2/Tutorials/Parameters/Understanding-ROS2-Parameters/)는 통신 방법의 목적과 사용 방법은 다르지만 토픽의 Publish와 Subscribe의 개념을 응용
 - ROS에서는 자체 개발한 [TCPROS](http://wiki.ros.org/ROS/TCPROS) 통신 라이브러리를 사용하지만, ROS2에서는 [OMG(Object Management Group)](https://www.omg.org/)에 의해 표준화된 [DDS(Data Distribution Service)](https://www.omg.org/spec/DDS/)의 [DDSI-RTPS(Real-time publish subscribe)](https://www.omg.org/spec/DDSI-RTPS/About-DDSI-RTPS/)를 사용
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%201.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%201.png)
+![03-ROS2%20and%20Data%20Distribution%20Service/Untitled%201.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%201.png)
 
 - DDS 도입으로 [IDL(Interface Description Language)](https://en.wikipedia.org/wiki/Interface_description_language)를 사용하여 메시지 정의 및 직렬화를 더 쉽고 포괄적으로 다룰 수 있게 되었다.
 - DCPS(data-centric publish-subscribe), DLRL(data local reconstruction layer)의 내용을 담아 재정한 통신 프로토콜인 DDSI-RTPS을 채용하여 실시간 데이터 전송을 보자아고, 임베디드 시스템에서도 사용할 수 있게 되었다.
 - ROS Master없이 여러 DDS 프로그램 간 통신이 가능하고, [QoS(Quality of Service)](https://index.ros.org/doc/ros2/Concepts/About-Quality-of-Service-Settings/)를 매개변수 형태로 설정하여 TCP처럼 데이터 손실을 방지함으로써 신뢰도를 높이고, UDP처럼 통신 속도를 최우선시이 가능하며 [DDS-Security](https://www.omg.org/spec/DDS-SECURITY/About-DDS-SECURITY/) 도입으로 보안이 강화되었다.
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%202.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%202.png)
+![03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%202.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%202.png)
 
 ---
 
@@ -34,7 +34,7 @@
 - DDS(Data Distribution Service)는 데이터를 중심으로 연결성을 갖는 미들웨어의 프로토콜(DDSI-RTPS)과 같은 DDS 사양을 만족하는 미들웨어 API
 - 해당 미들웨어는 밑에 그림과 같이 ISO 7 계층 레이어에서 호스트 계층(Host layers)에 해당되는 4~7 계층에 해당되고 ROS2에서는 위 그림과 같이 운영 체제와 사용자 어플리케이션 사이에 있는 소프트웨어 계층. 이를 통해 시스템의 다양한 구성 요소를 쉽게 통신하고 데이터를 공유할 수 있게 된다.
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%203.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%203.png)
+![03-ROS2%20and%20Data%20Distribution%20Service/Untitled%203.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%203.png)
 
 ---
 
@@ -59,7 +59,7 @@
 
 - ROS2에서 DDs를 RMW(ROS Middleware)으로 디자인하고 벤더별로 각 RMW가 제작되었으며 rclcpp, rclc, rclpy, rcljava, rclobjc, rclada, rclgo, rclnodejs같이 다양한 언어를 지원하는 ROS Client Library로 멀티 프로그래밍 언어를 지원하고 있다.
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%204.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%204.png)
+![03-ROS2%20and%20Data%20Distribution%20Service/Untitled%204.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%204.png)
 
 ---
 
@@ -75,7 +75,7 @@
 
 - DCPS(data-centric publish-subscribe)는 적절한 수신자에게 적절한 정보를 효율적으로 전달하는 것을 목표로 하는 발간 및 구독 방식
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%205.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%205.png)
+![03-ROS2%20and%20Data%20Distribution%20Service/Untitled%205.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%205.png)
 
 ---
 
@@ -99,7 +99,7 @@
 - DDS는 상호 운영성을 지원하는데 DDS의 표준 사양을 지키는 벤더 제품을 사용한다면 다른 회사의 제품으로 변경하거나 혼용하여 사용해도 제품 간 상호 통신이 지원한다.
 - Fast DDS와 Cyclone DDS는 오픈 소스를 지향하기에 자유롭게 사용 가능하며 고성능을 원하면 OpenSplice, Connext DDS, Gurum DDS를 사용하면 된다.
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%206.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%206.png)
+![03-ROS2%20and%20Data%20Distribution%20Service/Untitled%206.png](03-ROS2%20and%20Data%20Distribution%20Service/Untitled%206.png)
 
 ---
 
@@ -151,7 +151,7 @@ $ ros2 run demo_nodes_cpp talker
 $ rqt_graph
 ```
 
-![03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png](03-ROS2%E1%84%8B%E1%85%AA%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png)
+![03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png](03-ROS2%20and%20Data%20Distribution%20Service%20397e63a10048479c92b9d0ff083edf05/Untitled%207.png)
 
 ---
 
