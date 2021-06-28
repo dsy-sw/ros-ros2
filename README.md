@@ -1,6 +1,6 @@
 # ROS2 Framework
 
-Robot 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
+Robot에 관련된 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
 
 - My Information
 
@@ -21,7 +21,7 @@ Robot 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
   - My Development Environment
 
     Language : Python(3.8.5), C++(gcc 8.1.0)
-    OS : Window / Ubuntu
+  OS : Window / Ubuntu
 
   - list
 
