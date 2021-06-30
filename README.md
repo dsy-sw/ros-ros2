@@ -1,6 +1,6 @@
 # ROS2 Framework
 
-Robot에 관련된 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
+Robot 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
 
 - My Information
 
@@ -38,6 +38,10 @@ Robot에 관련된 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시
     [06-ROS2_Service](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/06-ROS2_Service%20c7a32317c3514030b32cda1001eb558b.md)
 
     [07-ROS2 Action](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/07-ROS2%20Action%20bf4231f8bae14ef480bb3012e0d70a26.md)
+
+    [08-ROS2_topic&service&action_comparison](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/08-ROS2_topic&service&action_comparison%201539498e1fe1433db8a27e05437f9620.md)
+
+    [09-ROS2 parameter](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/09-ROS2%20parameter%2051dffbfe16884c9c99bb5d4752d55e3d.md)
 
 - References
 
