@@ -44,6 +44,8 @@ Robot 개발에 필수인 ROS/ROS2를 배우며 정리하는 게시판
     [09-ROS2 parameter](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/09-ROS2%20parameter%2051dffbfe16884c9c99bb5d4752d55e3d.md)
 
     [10-ROS2_tool_and_CLI](ROS2%20Framework%20b4e78c4e7c144c8492c1ec0eb3cab66a/10-ROS2_tool_and_CLI%20199acdf3d7724e0ba8617a82609ac692.md)
+    
+    [11-ROS2_GUI_and_RQt](https://www.notion.so/11-ROS2_GUI_and_RQt-4f189f3b47eb4878866ce0a3bf77f786)
 
 - References
 
